@@ -12,7 +12,7 @@ import {onAuthStateChanged} from "firebase/auth";
 import {doc, onSnapshot} from "firebase/firestore";
 import {createStructuredSelector} from "reselect";
 import {selectCurrentUser} from "./redux/user/user-selector";
-import CheckoutPage from "./pages/checkout/checkout";
+import CheckoutPage from "./pages/checkout/checkout-page";
 
 class App extends React.Component{
 
